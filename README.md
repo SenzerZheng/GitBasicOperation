@@ -30,16 +30,17 @@ git push -u origin master <br>
 ***（一）Merge from branch(develop) to trunk(master)*** <br>
 git checkout master <br>
 git merge develop *// merge from develop to master, the current code is master* <br>
- 
+ ![github](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_01.png "github") <br>
 start . *// explore the app* <br>
 or start app/.../network/HelloUrl 			*// explore the HttpUrl.java* <br>
+![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_02.png) <br>
  
 **Explain Image: delete the code between <<< to ===** <br>
- 
+ ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_03.png) <br>
 **Explain Image: result** <br>
- 
+ ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_04.png) <br>
 git commit –a / git commit <br>
-  
+  ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_05.png) <br>
 git push *// push the remote* <br>
 
 **（二）Merge from Hello.java to Hello.java in develop** <br>
@@ -51,8 +52,8 @@ git pull <br>
 start . / start app/.../network/HelloUrl 		<br>
 
 **Explain Image: delete the code between <<< to ===** <br>
- 
+ ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_06.png) <br>
 **Explain Image: result** <br>
- 
+ ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_07.png) <br>
 git commit –a / git commit <br>
 git push *// push the remote* <br>
