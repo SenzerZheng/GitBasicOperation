@@ -1,57 +1,57 @@
  - **Command line instructions**
 
-**一．SSH keys**
-ssh -keygen -t rsa -C "888@qq.com
-*open C:\Users\pc\.ssh\id_rsa.pub*
-*copy the content and paste to the server places*
+**一．SSH keys** <br>
+ssh -keygen -t rsa -C "888@qq.com <br>
+*open C:\Users\pc\.ssh\id_rsa.pub* <br>
+*copy the content and paste to the server places* <br>
 
-**二．Git global setup**
-git config --global user.name "smileisgood"
-git config --global user.email 888@qq.com
+**二．Git global setup** <br>
+git config --global user.name "smileisgood" <br>
+git config --global user.email 888@qq.com <br>
 
-***（一）Create a new repository***
-git clone git@192.168.1.1:smilesigood/Hello.git
-cd Hello
-touch README.md
-git add README.md
-git commit -m "add README"
-git push -u origin master
+***（一）Create a new repository*** <br>
+git clone git@192.168.1.1:smilesigood/Hello.git <br>
+cd Hello <br>
+touch README.md <br>
+git add README.md <br>
+git commit -m "add README" <br>
+git push -u origin master <br>
 
-***（二）Existing folder or Git repository***
-cd existing_folder
-git init
-git remote add origin git@192.168.1.1:smilesigood/Hello.git
-git add .
-git commit
-git push -u origin master
+***（二）Existing folder or Git repository*** <br>
+cd existing_folder <br>
+git init <br>
+git remote add origin git@192.168.1.1:smilesigood/Hello.git <br>
+git add . <br>
+git commit <br>
+git push -u origin master <br>
 
-**三．Merge**
-***（一）Merge from branch(develop) to trunk(master)***
-git checkout master
-git merge develop *// merge from develop to master, the current code is master*
+**三．Merge** <br>
+***（一）Merge from branch(develop) to trunk(master)*** <br>
+git checkout master <br>
+git merge develop *// merge from develop to master, the current code is master* <br>
  
-start . *// explore the app*
-or start app/.../network/HelloUrl 			*// explore the HttpUrl.java*
+start . *// explore the app* <br>
+or start app/.../network/HelloUrl 			*// explore the HttpUrl.java* <br>
  
-**Explain Image: delete the code between <<< to ===**
+**Explain Image: delete the code between <<< to ===** <br>
  
-**Explain Image: result**
+**Explain Image: result** <br>
  
-git commit –a / git commit
+git commit –a / git commit <br>
   
-git push *// push the remote*
+git push *// push the remote* <br>
 
-**（二）Merge from Hello.java to Hello.java in develop**
-git status
-git add .
-git status
-git commit –a / git commit
-git pull
-start . / start app/.../network/HelloUrl 			
- 
-**Explain Image: delete the code between <<< to ===**
+**（二）Merge from Hello.java to Hello.java in develop** <br>
+git status <br>
+git add . <br>
+git status <br>
+git commit –a / git commit <br>
+git pull <br>
+start . / start app/.../network/HelloUrl 		<br>
+
+**Explain Image: delete the code between <<< to ===** <br>
  
-**Explain Image: result**
+**Explain Image: result** <br>
  
-git commit –a / git commit
-git push *// push the remote*
+git commit –a / git commit <br>
+git push *// push the remote* <br>
