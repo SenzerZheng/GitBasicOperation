@@ -43,7 +43,7 @@ git commit –a / git commit <br>
   ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_05.png) <br>
 git push *// push the remote* <br>
 
-**（二）Merge from Hello.java to Hello.java in develop** <br>
+***（二）Merge from Hello.java to Hello.java in develop*** <br>
 git status <br>
 git add . <br>
 git status <br>
