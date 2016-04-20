@@ -32,7 +32,7 @@ git checkout master <br>
 git merge develop *// merge from develop to master, the current code is master* <br>
  ![github](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_01.png "github") <br>
 start . *// explore the app* <br>
-or start app/.../network/HelloUrl 			*// explore the HttpUrl.java* <br>
+or start app/.../network/HelloUrl 			*// explore the HelloUrl.java* <br>
 ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_02.png) <br>
  
 **Explain Image: delete the code between <<< to ===** <br>
