@@ -1,4 +1,5 @@
- - **Command line instructions**
+**Command Line Instructions**
+=================================== 
 
 **一．SSH keys** <br>
 ssh -keygen -t rsa -C "888@qq.com <br>
@@ -6,11 +7,11 @@ ssh -keygen -t rsa -C "888@qq.com <br>
 *copy the content and paste to the server places* <br>
 
 **二．Git global setup** <br>
-git config --global user.name "smileisgood" <br>
+git config --global user.name "SenZerZheng" <br>
 git config --global user.email 888@qq.com <br>
 
 ***（一）Create a new repository*** <br>
-git clone git@192.168.1.1:smilesigood/Hello.git <br>
+git clone git@192.168.1.1:SenZerZheng/Hello.git <br>
 cd Hello <br>
 touch README.md <br>
 git add README.md <br>
@@ -20,7 +21,7 @@ git push -u origin master <br>
 ***（二）Existing folder or Git repository*** <br>
 cd existing_folder <br>
 git init <br>
-git remote add origin git@192.168.1.1:smilesigood/Hello.git <br>
+git remote add origin git@192.168.1.1:SenZerZheng/Hello.git <br>
 git add . <br>
 git commit <br>
 git push -u origin master <br>
