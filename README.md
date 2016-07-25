@@ -35,7 +35,7 @@ start . *// explore the app* <br>
 or start app/.../network/HelloUrl 			*// explore the HelloUrl.java* <br>
 ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_02.png) <br>
  
-**Explain Image: delete the code between <<< to ===** <br>
+**Explain Image: "<<< HEAD to ===": server version; === to >>> dev: local version. It depends on you!** <br>
  ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_03.png) <br>
 **Explain Image: result** <br>
  ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_04.png) <br>
@@ -51,7 +51,7 @@ git commit –a / git commit <br>
 git pull <br>
 start . / start app/.../network/HelloUrl 		<br>
 
-**Explain Image: "<<<<< HEAD to ======": server version; ====== to >>>>>> ...: local version. It depends on you <br>
+**Explain Image: "<<< HEAD to ===": server version; === to >>> dev: local version. It depends on you!** <br>
  ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_06.png) <br>
 **Explain Image: result** <br>
  ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_07.png) <br>
