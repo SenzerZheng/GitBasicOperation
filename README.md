@@ -51,7 +51,7 @@ git commit –a / git commit <br>
 git pull <br>
 start . / start app/.../network/HelloUrl 		<br>
 
-**Explain Image: delete the code between <<< to ===** <br>
+**Explain Image: "<<<<< HEAD to ======": server version; ====== to >>>>>> ...: local version. It depends on you <br>
  ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_06.png) <br>
 **Explain Image: result** <br>
  ![image](https://github.com/SenzerZheng/GitBasicOperation/blob/master/samples/sample_07.png) <br>
