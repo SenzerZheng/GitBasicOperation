@@ -3,7 +3,7 @@
 
 **Ⅰ．SSH keys** <br>
 ssh-keygen -t rsa -C 888@qq.com <br>
-*open C:\Users\xxx\.ssh\id_rsa.pub* <br>
+*open C:\Users\xxx\\.ssh\id_rsa.pub* <br>
 *copy the content and paste to the server places* <br>
 
 **Ⅱ．Git global setup** <br>
